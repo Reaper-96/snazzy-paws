@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Book a grooming appointment with Snazzy Paws Grooming.">
+
+    <title>Booking | Snazzy Paws Grooming</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                Snazzy Paws Grooming
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Page Introduction -->
+        <section class="page-intro">
+
+            <h1>Book an Appointment</h1>
+
+            <p>
+                Reserve a spot for your furry best friend.
+            </p>
+
+        </section>
+
+
+        <!-- Booking Form -->
+        <section class="booking-section">
+
+            <h2>Reserve a Spot</h2>
+
+            <form action="#" method="post">
+
+                <div class="form-group">
+                    <label for="owner-name">Owner's Name</label>
+
+                    <input
+                        type="text"
+                        id="owner-name"
+                        name="owner-name"
+                        required
+                        autocomplete="name">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="dog-name">Dog's Name</label>
+
+                    <input
+                        type="text"
+                        id="dog-name"
+                        name="dog-name"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="dog-breed">Dog's Breed</label>
+
+                    <input
+                        type="text"
+                        id="dog-breed"
+                        name="dog-breed"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="service">Select Service</label>
+
+                    <select
+                        id="service"
+                        name="service"
+                        required>
+
+                        <option value="">Please select a service</option>
+                        <option value="bath-brush">Bath &amp; Brush</option>
+                        <option value="full-haircut">Full Haircut</option>
+                        <option value="spa-package">Spa Package</option>
+                        <option value="teeth-brushing">Teeth Brushing</option>
+                        <option value="flea-tick-wash">Flea &amp; Tick Wash</option>
+                        <option value="nail-grinding">Nail Grinding</option>
+                        <option value="de-shedding">De-Shedding</option>
+
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="preferred-date">Preferred Date</label>
+
+                    <input
+                        type="date"
+                        id="preferred-date"
+                        name="preferred-date"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="preferred-time">Preferred Time</label>
+
+                    <input
+                        type="time"
+                        id="preferred-time"
+                        name="preferred-time"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+
+                    <textarea
+                        id="notes"
+                        name="notes"
+                        rows="5"
+                        placeholder="Please tell us anything we should know about your dog."></textarea>
+                </div>
+
+
+                <button type="submit" class="button">
+                    Submit Booking
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Booking Information -->
+        <section class="booking-info">
+
+            <h2>Booking Information</h2>
+
+            <div class="info-grid">
+
+                <article class="info-card">
+
+                    <h3>Opening Hours</h3>
+
+                    <p>Monday - Friday: 8am - 6pm</p>
+                    <p>Saturday: 9am - 4pm</p>
+                    <p>Sunday: Closed</p>
+
+                </article>
+
+
+                <article class="info-card">
+
+                    <h3>Our Booking Policy</h3>
+
+                    <p>
+                        Please book at least 24 hours in advance.
+                    </p>
+
+                    <p>
+                        All pets must have up-to-date vaccinations.
+                    </p>
+
+                    <p>
+                        Cancellations must be made at least 24 hours
+                        before the appointment.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Snazzy Paws Grooming</h2>
+
+                <p>Phone: (555) 762 9972</p>
+                <p>Email: hello@snazzypaws.com</p>
+                <p>Facebook: facebook.com/snazzypaws</p>
+            </div>
+
+            <div>
+                <h2>Opening Hours</h2>
+
+                <p>Monday - Friday: 8am - 6pm</p>
+                <p>Saturday: 9am - 4pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Snazzy Paws Grooming. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
